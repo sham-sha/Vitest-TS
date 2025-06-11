@@ -72,3 +72,8 @@ This will start the back-end process at `http://localhost:3000`. If port 3000 is
 ## Custom matchers
 https://github.com/testing-library/jest-dom/
       
+
+## IMPORTANT EXTENSIONS
+------ Vitest Snippets
+------ Testing Library Snippets
+
