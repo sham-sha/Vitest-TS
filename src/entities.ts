@@ -15,3 +15,9 @@ export type Product = {
   price: number;
   categoryId: number;
 };  
+
+export type users ={
+    id: number;
+  name: string;
+  isAdmin?: boolean;
+}
