@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react'
 import Greet from "../../src/components/Greet";
 
 describe("Greet", () => {
+
   it("should render Hello with the name when nae is provided", () => {
     render(<Greet name="Sam" />);
     const heading = screen.getByRole("heading");
@@ -15,5 +16,7 @@ describe("Greet", () => {
     expect(button).toBeInTheDocument();
     expect(button).toHaveTextContent(/login/i);
   });
+
+  
 
 });
